@@ -4,70 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program3:MCA TIME TABLE</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <title>Program 3: MCA A - Class Time Table</title>
 </head>
 <body>
     <section class="header">
-        <h1>KGiSL Institute Of Information Management</h1>
         <nav>
-           <a href="index.html" ></a><img src="images/loga.png"></a>
-           <div class="nav-links"> 
-            <h1>Kgisl IIM MCA-A Time Table</h1>
-            <h2>Department of computer science</h2>
-            <h3>Semester 2</h3>
-           </div>
+            <a href="index.html"><img src="images/KGiSL IIM Logo.png" alt="KGiSL logo"></a>
+            <div class="nav-links">
+                <h1>KGiSL IIM MCA Class Time Table</h1>
+                <h4>Department of Computer Science</h4>
+                <p>Semester II - Ist Year</p>
+            </div>
         </nav>
+    </section>
+    <section class="table-design">
+        <table class="content-table">
+            <tr class="table-head">
+                <th>Day Order</th>
+                <th>1st Hour</th>
+                <th>2nd Hour</th>
+                <th rowspan="6" ><span style="writing-mode:vertical-lr ;-ms-writing-mode: tb-rl;transform: rotate(180deg);">Interval</span></th>
+                <th>3rd Hour</th>
+                <th>4th Hour</th>
+                <th rowspan="6"><span style="writing-mode:vertical-lr ;-ms-writing-mode: tb-rl;transform: rotate(180deg);">Lunch</span></th>
+                <th>5th Hour</th>
+                <th>6th Hour</th>
 
-</section>
-<section class="table-design">
-    <table class="content-table">
-        <tr>
-            <th>Day order</th>
-            <th>1st hour</th>
-            <th>2nd hour</th>
-            <th rowsspan="6">Interval</th>
-            <th>3rd hour</th>
-            <th>3th hour</th>
-            <th>lunch</th>
-            <th>5th hour</th>
-            <th>6th hour</th>
+            </tr>
+            <tr class="table-data">
+                <td>Day Order I</td>
+                <td>IoT</td>
+                <td>OR</td>
+                <td>Web lab</td>
+                <td>.NET</td>
+                <td>SPM</td>
+                <td>BDA</td>
 
-        </tr>
-        <tr class="table-data">
-            <td>I</td>
-            <td>II</td>
-            <td>III</td>
-            <td>IV</td>
-            <td>V</td>
-        </tr>
-        <tr>
-            <td>IOT</td>
-            <td>or</td>
-            <td>.net</td>
-            <td>spm</td>
-            <td>DM</td>
-            <td>.web</td>
-        </tr>
-        <tr>
-            <td>Or</td>
-            <td>.net</td>
-            <td>IoT</td>
-            <td>DM</td>
-            <td>spm</td>
-            <td>,web</td>
+            </tr>
+            <tr class="table-data">
+                <td>Day Order II</td>
+                <td colspan="2">.Net Lab</td>
+                <td>IoT</td>
+                <td>BDA</td>
+                <td>Web Lab</td>
+                <td>SPM</td>
+                
 
-        </tr>
-        <tr>
-            <td>IOT</td>
-            <td>or</td>
-            <td>.net</td>
-            <td>spm</td>
-            <td>DM</td>
-            <td>coursera</td>
-        </tr>
-    </table>
-</section>
+            </tr>
+            <tr class="table-data">
+                <td>Day Order III</td>
+                <td>SPM</td>
+                <td>DM Lab</td>
+                <td colspan="2">Web Lab</td>
+                <td>.NET</td>
+                <td>BDA</td>
+                
+
+            </tr>
+            <tr class="table-data">
+                <td>Day Order IV</td>
+                <td>.NET</td>
+                <td>IoT</td>
+                <td>SPM</td>
+                <td>BDA</td>
+                <td>Web Lab</td>
+                <td>OR</td>
+
+            </tr>
+            <tr class="table-data">
+                <td>Day Order V</td>
+                <td>.NET</td>
+                <td>IoT</td>
+                <td>SPM</td>
+                <td>DM</td>
+                <td>BDA</td>
+                <td>OR</td>
+            </tr>
+
+
+
+        </table>
+        <div class="box">
+            <h2> List of subjects</h2>
+            <ul>
+            <li><span></span>BDA-big data  &Analytics</li>
+            <li><span></span>OR-operation Research</li>
+            <li><span></span>IOT-Internet of things</li>
+            <li><span></span>SPM-software project management</li>
+            <li><span></span>.NET-.net programming</li>
+            <li><span></span>DM LAB-data mining lab lab</li>
+            <li><span></span>.NET LAB-.net programming lab</li>
+            <li><span></span>WEB LAB-webprogramming lab</li>
+            </ul>
+        </div>
+
+
+    </section>
     
 </body>
 </html>
